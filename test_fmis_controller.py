@@ -17,3 +17,14 @@ from ducktape import fmis_controller_class
 ### Query permissions something other than PUBLIC or PRIVATE
 ### Invalid Query Name
 ### Multiple queries – both the list and independent
+
+# Test basic object creation
+class TestBasicOperations(unittest.TestCase):
+    # Create instance
+
+    # Create instance using existing display
+
+    # Create invalid instances (with wrong types)
+    pass
+
+    # Test get_browser_elements and process_base_url
